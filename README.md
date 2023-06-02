@@ -4,17 +4,17 @@ PNTesting is a simple security tool designed to streamline basic security auditi
 # Login in
 The Tool requires establishing a connection to a virtual machine (Cloud/local) where the tools (Nmap, Hydra) need to be installed to perform the security assessments.
 
-![Picture1](https://github.com/Mohamed-Fourti/PNTesting/assets/61188969/9713dc1c-5f1d-4ae6-ada0-39cee84b7d1d)
-![Picture2](https://github.com/Mohamed-Fourti/PNTesting/assets/61188969/d00acbb9-4ebe-4e0f-85ff-2f0d0853c804)
+![Picture1](https://github.com/Mohamed-Fourti/PNTesting/assets/61188969/79cf75a1-24ed-4e40-92c3-1989224dfac7)
+![Picture2](https://github.com/Mohamed-Fourti/PNTesting/assets/61188969/f56cab84-2c60-4c76-a77f-a85834523232)
 
 # Key Features
 **Port Scanning:** The tool allows performing port scanning on multiple targets. It utilizes Nmap, to discover open ports on target systems, providing insights into network configuration and potential vulnerabilities.
 
-![Picture3](https://github.com/Mohamed-Fourti/PNTesting/assets/61188969/41eaeb6d-3876-400e-8224-42b6c86e26b9)
+![Picture3](https://github.com/Mohamed-Fourti/PNTesting/assets/61188969/e498accb-c6fe-44ff-a61e-791d2f0146cf)
 
 **Password Cracking:** This can be used to attempt unauthorized access to unsecured machines through SSH. It utilizes Hydra to perform brute force By trying different combinations of usernames and passwords.
 
-![Picture4](https://github.com/Mohamed-Fourti/PNTesting/assets/61188969/52b04586-94bf-4a2f-82c3-07402aa70ad5)
+![Picture4](https://github.com/Mohamed-Fourti/PNTesting/assets/61188969/572f2d39-caee-4104-8945-379943c40108)
 
 **Security Suggestions:** The tool utilizes port scan reports to generate security recommendations and best practices. It matches scanned ports with an SQLite database containing known vulnerabilities and associated countermeasures. (Still in progress)
 
